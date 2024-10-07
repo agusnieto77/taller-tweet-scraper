@@ -1,6 +1,9 @@
 Taller sobre TweetScraperR
 ================
-Dictado por Agustín Nieto (INHUS-CONICET/UNMdP)
+<p style="font-size:26px;">  
+Una herramienta para la recolección de tweets en la era post-API  
+</p>
+Agustín Nieto (INHUS-CONICET/UNMdP)
 
 ### Descripción general
 
