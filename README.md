@@ -142,7 +142,7 @@ experiencia práctica con las herramientas que les permitirá utilizar
 - [Chromote](https://rstudio.github.io/chromote/)
 - [TweetScraperR](https://github.com/agusnieto77/TweetScraperR/)
 - [Requisitos](https://github.com/agusnieto77/TweetScraperR/blob/main/Requisitos.md)
-- [Código](https://github.com/agusnieto77/)
+- [Código](https://github.com/agusnieto77/taller-tweet-scraper/tree/main/Scripts)
 - [Aplicación Web](http://tweet-scraper.hlab.com.ar:7486/)
 
 ### Bibliografía
