@@ -22,3 +22,6 @@ tag <- ".xu06os2.x1ok221b"
 # Extraemos el texto de los elementos que coinciden con el selector CSS y lo imprimimos
 # cat() se usa para imprimir el texto sin comillas y con formato
 cat(rvest::html_text(fb_aas$html_elements(tag)))
+
+# Cerramos la sesión de Facebook
+fb_aas$session$close()

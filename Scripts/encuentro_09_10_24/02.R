@@ -55,4 +55,8 @@ tweet_01_body_text <- rvest::html_text(tweet_01_body)
 # Imprimimos el texto extraído del <body>
 print(tweet_01_body_text)
 
+# Muestra la vista de un tweet en el navegador o en el entorno interactivo
 tweet_01$view()
+
+# Cierra la sesión de navegación o la conexión actual a la página web
+tweet_01$session$close()

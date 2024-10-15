@@ -17,3 +17,6 @@ ig_aas$html_elements("body") |> rvest::html_text()
 # Extraemos el texto de todos los elementos <body>, seleccionamos el tercer elemento (índice 3) y lo imprimimos
 # cat() se usa para imprimir el texto sin comillas y con formato
 cat(rvest::html_text(ig_aas$html_elements("body"))[3])
+
+# Cerramos la sesión de Instagram
+ig_aas$session$close()

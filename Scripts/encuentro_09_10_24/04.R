@@ -4,7 +4,10 @@
 library(rvest)
 
 # Definimos un vector con dos URLs de tweets
-urls  <- c("https://x.com/AAS_Sociologia/status/1838907832927768645", "https://x.com/AAS_Sociologia/status/1841819590587822081")
+urls  <- c("https://x.com/AAS_Sociologia/status/1844666834886283607",
+           "https://x.com/AAS_Sociologia/status/1844776108778000410",
+           "https://x.com/AAS_Sociologia/status/1838907832927768645",
+           "https://x.com/AAS_Sociologia/status/1841819590587822081")
 
 # Seleccionamos la primera URL del vector
 url_01 <- urls[1]
@@ -32,3 +35,6 @@ cat("\n\14")
 # Imprimimos el texto del primer elemento <article> encontrado
 # Esto debería contener el texto principal del tweet
 cat(tweet_01_article_text[1])
+
+# Cerramos la sesión de Twitter
+tweet_01$session$close()
