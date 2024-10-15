@@ -53,7 +53,10 @@ tweet_01_body <- tweet_01$html_elements("body")
 print(tweet_01_body)
 
 # Extraemos el texto de los elementos <body>
-tweet_01_body_text <- rvest::html_text2(tweet_01_body)
+tweet_01_body_text <- rvest::html_text(tweet_01_body)
 
 # Imprimimos el texto extraído de los elementos <body>
-print(tweet_01_body_text)
+cat(tweet_01_body_text[2])
+
+# Cerramos la sesión de Twitter
+tweet_01$session$close()

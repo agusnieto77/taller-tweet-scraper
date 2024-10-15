@@ -12,7 +12,9 @@ fb_aas <- rvest::read_html_live(url)
 
 # Extraemos el texto de todos los elementos <body> y lo imprimimos
 # El operador |> es un pipe que pasa el resultado de la izquierda como primer argumento de la función a la derecha
-fb_aas$html_elements("body") |> rvest::html_text()
+ejemplo <- fb_aas$html_elements("body") |> rvest::html_text()
+
+ejemplo[2]
 
 # Definimos un selector CSS específico para el contenido que queremos extraer de Facebook
 tag <- ".xu06os2.x1ok221b"

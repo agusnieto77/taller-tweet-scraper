@@ -34,7 +34,7 @@ print(tweet_01_head)
 class(tweet_01_head)
 
 # Extraemos el texto del elemento <head>
-tweet_01_head_text <- rvest::html_text2(tweet_01_head)
+tweet_01_head_text <- rvest::html_text(tweet_01_head)
 
 # Imprimimos el texto extraído del <head>
 print(tweet_01_head_text)
@@ -49,7 +49,7 @@ tweet_01_body <- rvest::html_element(tweet_01, "body")
 print(tweet_01_body)
 
 # Extraemos el texto del elemento <body>
-tweet_01_body_text <- rvest::html_text2(tweet_01_body)
+tweet_01_body_text <- rvest::html_text(tweet_01_body)
 
 # Imprimimos el texto extraído del <body>
 print(tweet_01_body_text)
