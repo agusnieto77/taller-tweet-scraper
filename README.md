@@ -29,9 +29,13 @@ en la investigación y análisis de redes sociales en la actualidad.
 ##### Contenido:
 
 - ¿Qué es R? Una breve historia y sus aplicaciones en análisis de datos.
+
 - Instalación de R y RStudio en distintos sistemas operativos.
+
 - Navegación por RStudio: consola, editor, entorno y panel de gráficos.
+
 - Ejecución de comandos básicos en la consola.
+
 - Creación y ejecución de scripts para automatizar tareas.
 
 #### 2. Web Scraping vs API REST
@@ -45,8 +49,10 @@ en la investigación y análisis de redes sociales en la actualidad.
 
 - Definición de web scraping: ¿Qué es y por qué es relevante en la era
   post-API?
+
 - Introducción a las API REST: Qué son, cómo funcionan, y cómo las
   empresas regulan el acceso a datos.
+
 - Comparativa entre scraping y APIs en el contexto de la recolección de
   datos de Twitter: pros y contras.
 
@@ -60,6 +66,7 @@ en la investigación y análisis de redes sociales en la actualidad.
 ##### Contenido:
 
 - Instalación y carga del paquete `rvest`.
+
 - Introducción a `read_html_live()`: su sintaxis y aplicaciones.
 
 ##### Actividades:
@@ -81,14 +88,16 @@ en la investigación y análisis de redes sociales en la actualidad.
 ##### Contenido:
 
 - Instalación y configuración del paquete `TweetScraperR`.
+
 - Estructura básica de las funciones en `TweetScraperR`: cómo acceder a
   los datos.
+
 - Recolección básica de tweets utilizando palabras clave y hashtags.
 
 ##### Actividades:
 
-- Ejercicio práctico: Buscar tweets que mencionen una palabra clave de
-  interés y guardar los resultados.
+- Buscar tweets que mencionen una palabra clave de interés y guardar los
+  resultados.
 
 #### 2. Funciones avanzadas de TweetScraperR I
 
@@ -100,6 +109,7 @@ en la investigación y análisis de redes sociales en la actualidad.
 ##### Contenido:
 
 - Búsqueda por perfiles de cuenta, y de tweets con información completa.
+
 - Almacenamiento de los datos recolectados en formatos como RDS.
 
 ##### Actividades:
@@ -112,21 +122,29 @@ en la investigación y análisis de redes sociales en la actualidad.
 ##### Contenido:
 
 - Búsquedas en tiempo real con información completa.
+
 - Implementación de un ciclo for para recolectar tweets completos en
   tiempo real.
 
 ##### Actividades:
 
-- …
+- Buscar tweets por un hashtag relacionado con un evento que sea
+  trending topic en [Trends 24](https://trends24.in/).
 
 ### Resultados esperados
 
-Al final del taller, se tendrá una comprensión de: - El R y RStudio. -
-Las diferencias clave entre web scraping y API REST. - Cómo extraer
-datos de páginas web dinámicas usando `rvest`. - Las funciones clave de
-`TweetScraperR` para la recolección de tweets. - Aplicar los
-conocimientos en un proyecto práctico de recolección y análisis de datos
-de Twitter.
+Al final del taller, se tendrá una comprensión de:
+
+- El R y RStudio.
+
+- Las diferencias clave entre web scraping y API REST.
+
+- Cómo extraer datos de páginas web dinámicas usando `rvest`.
+
+- Las funciones clave de `TweetScraperR` para la recolección de tweets.
+
+- Aplicar los conocimientos en un proyecto práctico de recolección y
+  análisis de datos de Twitter.
 
 Este plan de estudios está diseñado para que quienes participan no solo
 comprendan los conceptos teóricos, sino que también tengan una
