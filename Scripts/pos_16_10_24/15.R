@@ -21,7 +21,7 @@ openTimeline(username = user)
 # Extraer las urls de los tweets del perfil
 # Capturamos hasta 30 urls del timeline del/la usuario/a
 # El resultado se guardará en un archivo RDS en el directorio de trabajo actual
-getScrollExtractUrls(objeto = timeline, username = user, n_tweets = 30)
+TweetScraperR::getScrollExtractUrls(objeto = timeline, username = user, n_tweets = 50)
 
 # Cerrar la sesión del timeline
 # Importante: Siempre cerrar el timeline después de la extracción para liberar recursos
